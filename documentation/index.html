@@ -1,0 +1,214 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Squares HTML Template</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<link rel="stylesheet" href="assets/prettify/prettify.css" type="text/css"/>
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+		h4 { font-weight: bold; }
+		#social-links {
+			margin-top: -20px;
+			margin-bottom: 20px;	
+		}
+		#social-links img {
+			opacity: 0.8;
+			width: 32px;
+			height: 32px;	
+		}
+		#social-links img:hover {
+			opacity: 1.0;
+		}
+		h5 {
+			color: #444;
+			margin-bottom: 0.5em;	
+		}
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Squares HTML Template&rdquo; Documentation by &ldquo;Joel Besada&rdquo; v1.01</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Squares HTML Template&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 2011-09-17<br>
+					By: Joel Besada<br>
+					Email: <a href="mailto:joel@joelb.me">joel@joelb.me</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my template. If you have any questions that 
+					are beyond the scope of this help file, please feel free to email via my user page contact form 
+					<a href="http://themeforest.net/user/JoelBesada">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#overview">Overview</a></li>
+			<li><a href="#quick">Quick Guide</a></li>
+			<li><a href="#deploy">Deploying</a></li>
+			<li><a href="#credits">Credits</a></li>
+			<li><a href="#changelog">Changelog</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="overview"><strong>A) Overview</strong> - <a href="#toc">top</a></h3>
+		<p> 
+			This is the main documentation for the Squares HTML Template. The template is built on 
+			<a href="http://www.h5bp.com">HTML5 Boilerplate</a>, the site contains useful info
+			and documentation for many of the aspects of the template. All HTML, PHP, CSS and JS files that I've 
+			written are thoroughly commented to make the code as easy to understand as possible. 
+		</p>
+		
+		<p>
+			If you are new to HTML and CSS, I recommend checking out the tutorials at <a href="http://www.w3schools.com/">
+			w3schools</a> or this <a href="http://active.tutsplus.com/tutorials/html5/get-up-to-speed-with-html-basix/">
+			basic tutorial on tuts+</a>. For editing the template, I also recommend a text editor with syntax highlighting,
+			such as Notepad++ for Windows or TextMate for Mac.
+		</p>
+
+		<hr>
+
+		<h3 id="quick"><strong>B) Quick Guide</strong> - <a href="#toc">top</a></h3>
+		<h4>General Look</h4>
+		<p>
+			The template comes with a couple of color presets and backgrounds. To change these, open the 
+			<em>css/style.css</em> file and find the settings near the top of the file.
+		</p>
+		<p>
+			To change the color, choose any of the css color files in <em>css/colors</em> and change URL in the
+			<code>@import</code> line in <em>css/style.css</em> (section 2) to direct to it.
+			To change the background image, go to the next section in the <em>style.css</em> file (section 3)
+			and point the URL to the desired background image. All backround images are in the <em>img/backgrounds</em>
+			folder as PNG files.
+		</p>
+		<h4>Content</h4>
+			<p>
+			To edit all of the content on the page, open the <em>index.html</em> file in the base folder of this template.
+			Here follows some brief information about the different sections of the site and what you should edit.
+			</p>
+		<h5>Home (About) Page</h5>
+		<p>
+			This page serves as a brief introduction to you as a person. Replace the placeholder Lorem Ipsum text
+			with anything you like. You should also insert a picture of yourself here, with dimensions 120x120 pixels.
+			Use the social links list to link to your social media accounts such as Twitter and Facebook. The folder
+			<em>img/icons/social</em> contains 100 different social site icons, so you have plenty to choose from.
+		</p>
+		<h5>Resume Page</h5>
+		<p>
+			The topmost content of this section is the bar graph which you can use to show your skillset. Every <code>li</code> item in the list represents
+			a bar on the graph. Each <code>li</code> item has a <code>data-graph-percent</code> attribute, which
+			decides how many percent of the graph that the bar should fill up horizontally. The <code>aside</code>
+			elements inside every list item is the content that is displayed next to the graph, when its bar is active.
+			Use these to present any info about the skill. You can add or remove any number of list items and they will automatically
+			be made to fit inside the graph.
+		</p>
+		<p> 
+			Below the graph is a straightforward list of what kind of work you do, and a link which you can direct to your full resume/CV.
+		</p>
+		<h5>Portfolio Page</h5>
+			<p>
+				This is the page where you can display pictures and info about all the work that you've done in the past.
+				Every <code>li</code> list item represents one image in the slideshow and you are free to insert as many as you want.
+				Similar to the bar graph, content inside the <code>aside</code> elements are the info about the particular item
+				and will only be displayed for the active one.
+			</p>
+		<h5>Contact Page</h5>
+			<p>
+				This last section contains all of your contact info and the contact form. The only thing to edit here
+				is the list with the contact information. You can point the visitor to your vCard file with the
+				last link in the list. If you don't have a vCard (.vcf), you can find many different tools online for 
+				creating one.
+			</p>
+		<h4>Contact Form Email</h4>
+		<p>
+			To have the contact form send the message to your email address, open the <em>sendform.php</em> file in the
+			template base folder and edit the example email between the quotation marks on the top line.
+		</p>
+		<h4>CSS</h4>
+		<p>
+			If you want to go in and change any of the style of any particular element on the page, <em>css/style.css</em>
+			is the file to edit. The table of contents at the top will help you find what you're looking for. If you're
+			looking to customize colors beyond the presets, check out any of the css files in the <em>css/colors</em>
+			folder.
+		</p>
+		<h4>Javascript</h4>
+		<p>
+			The template uses the jQuery Javascript framework for most of the functionality. The main code is found in
+			the <em>js/script.js</em> file. I do not recommend editing anything inside this file unless you know what you
+			are doing. All of the functions are explained in the comments and most lines of code that aren't straightforward
+			are also explained, but unless you know your way around Javascript I wouldn't change anything in the code if I were you.
+		</p>
+		<hr>
+		
+		<h3 id="deploy"><strong>C) Deploying</strong> - <a href="#toc">top</a></h3>
+			<p>
+				When you are done with all of the editing, it's time to upload the files to your web host. Before
+				doing this, it's highly recommended that you use the HTML5 Boilerplate build script. This script 
+				compresses much of the code and content of the page down and optimizes images, which will greatly improve
+				the loading time of the page. Visit <a href="http://html5boilerplate.com/docs/Build-script/">this documentation
+				page</a> for info on how to use it. When you're done, you should have a new folder called <em>publish</em>.
+				Simply upload all the contents of that folder to your web host and you're done.
+			</p>
+			<p>
+				If you for some reason can't use the build script, simply upload all of the contents except the <em>build</em>
+				folder from the template base folder to your web host.
+			</p>
+		<hr>
+		
+		<h3 id="credits"><strong>D) Credits</strong> - <a href="#toc">top</a></h3>
+		<ul>
+			<li> Built on top of <a href="http://www.h5bp.com">HTML5 Boilerplate</a> </li>
+			<li> UI icons: <a href="http://somerandomdude.com/projects/iconic/">Iconic</a></li>
+			<li> Social icons: <a href="http://www.alexpeattie.com/projects/justvector_icons/">JustVector</a></li>
+			<li> Backgrounds: <a href="http://subtlepatterns.com/">Subtle Patterns</a></li>
+			<li> <em>Amaranth</em> font provided by <a href="http://www.google.com/webfonts">Google Webfonts</a></li>
+			<li> Portfolio images from <a href="http://zoo.envato.com/">Envato Zoo</a> </li>
+		</ul>
+		<hr>
+		<h3 id="changelog"><strong>E) Changelog</strong> - <a href="#toc">top</a></h3>
+		<h4>Version 1.01 (2011-09-17)</h4>
+		<ul>
+			<li>Improved the site on mobile browsers</li>
+		</ul>
+		<hr>
+		<p style="color:green; font-size: 1.5em; font-weight: bold;">If you liked this template, please consider rating it! It helps out a lot and will keep me motivated to continue 
+			updating the template!</p>
+		<p>Once again, thank you so much for purchasing this template. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the items on Themeforest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><a href="http://www.joelb.me"><strong>Joel Besada</strong></a></p>
+		<div id="social-links">
+			<a href="http://www.twitter.com/JoelBesada"><img src="assets/images/twitter-icon.png" alt="twitter" /></a>
+			<a href="https://plus.google.com/104964297515614191389/posts"><img src="assets/images/google-plus-icon.png" alt="google plus" /></a>
+			<a href="http://themeforest.net/user/JoelBesada"><img  style="width: 36px;" src="assets/images/themeforest.png" alt="themeforest" /></a>
+		</div>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+	<script type="text/javascript" src="assets/prettify/prettify.js"></script>
+	<script type="text/javascript"> 
+		prettyPrint();
+	</script>
+</body>
+</html>
