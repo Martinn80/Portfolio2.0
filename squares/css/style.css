@@ -380,8 +380,11 @@ footer a, footer a:visited {
 }
 
 #about aside img {
+	padding-top: 9px;
+	padding-right: 10px;
+	padding-left: 4px;
 	width: 120px;
-	height: 120px;	
+	height: 140px;	
 	
 	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.10);
 	-moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.10);
@@ -390,15 +393,16 @@ footer a, footer a:visited {
 
 #about p {
 	display: block;
-	width: 230px;
+	width: 380px;
 	float: left;
 	font-size: 12px;
 	margin-left: 10px;	
 	margin-top: 7px;
+	float: unset;
 }
 
 #about p.secondary {
-	width: 340px;
+	width: 360px;
 	margin-top: 0;
 	margin-left: 5px;	
 }
